@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+.active div #dot {
+  @apply block !important;
+}
+
+.active div {
+  @apply bg-gray-200 text-gray-800 !important;
+}
+
+
+@tailwind utilities;
